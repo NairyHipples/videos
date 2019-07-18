@@ -1,0 +1,17 @@
+.videoItem {
+  display: flex !important;
+  cursor: pointer;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  overflow: hidden;
+}
+
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
